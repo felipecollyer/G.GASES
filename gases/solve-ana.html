@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova análise</title>
+    <link rel="stylesheet" href="style-new-ana.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Titillium+Web:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <form id="new-ana" name="new-ana" action="analisys.html">
+        <Fieldset>
+            <div class="fieldset-wrapper">
+                <legend>
+                    Inserir nova análise
+                </legend>
+                <div class="input-wrapper">
+                    <label for="client-id">Identificador do Cliente <span>(Apenas números)</span></label>
+                    <input name="client-id" type="text" id="client-id" pattern="[0-9]+$" title="Utilize apenas números"
+                        required>
+                </div>
+                <div class="check-wrapper">
+                    <input type="checkbox" id="check-privacy">
+                    <label for="check-privacy"> Cilindro danificado?</label>
+                </div> <div class="check-wrapper">
+                    <input type="checkbox" id="check-privacy">
+                    <label for="check-privacy"> Válvula danificada?</label>
+                </div> <div class="check-wrapper">
+                    <input type="checkbox" id="check-privacy">
+                    <label for="check-privacy"> Detectado vazamentos?</label>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-info">Detalhes da análise</label>
+                    <textarea name="complaint" id="event-info">
+
+            </textarea>
+                </div>
+            </div>
+        </Fieldset>
+        <Fieldset>
+            <div class="fieldset-wrapper">
+                <legend>
+                    Data e Hora
+                </legend>
+                <div class="t-col">
+                    <div class="input-wrapper">
+                        <label for="day"> Data de início</label>
+                        <input name="initial-ana-day" type="date" id="day" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="event-begin"> Hora de início </label>
+                        <input name="initial-ana-time" type="time" id="event-begin" required>
+                    </div>
+                </div>
+
+            </div>
+        </Fieldset>
+    </form>
+    <footer>
+        <a href="analisys.html">
+        <input form="new-ana" class="button" type="submit" value="Salvar" name="form-new-ana">
+        </a>
+    </footer>
+
+</body>
+
+</html>

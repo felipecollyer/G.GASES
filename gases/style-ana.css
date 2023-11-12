@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: rgba(0, 153, 213, 0.2);
+    font-size: 1.6rem;
+    padding: 0 6.4rem;
+    color: black;
+}
+.buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+    max-width: 134rem;
+    margin: 20rem auto 0;
+    justify-content: center;
+    align-items: center;
+    }
+
+.buttons-wrapper button {
+    height: 5.6rem;
+    border-radius: 8px;
+    background: rgba(0, 153, 213, 0.2);
+    border: 1px solid  rgb(48, 76, 116);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+.buttons-wrapper button:hover{
+    background: rgba(0, 153, 213, 0.8);
+    cursor: pointer;
+}
+.buttons-wrapper a, .buttons-wrapper button {
+    width: 100%;
+    min-width: 38rem;
+    max-width: 63rem;
+}
+
+.buttons-wrapper legend {
+    font-size: 3.8rem;
+    color: rgba(48, 76, 116, 0.8);
+    font-weight: bold;
+    font-family:'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons-wrapper span {
+    font-size: 4.2rem;
+    color:rgba(48, 76, 116, 1) ;
+}

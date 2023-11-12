@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: rgba(0, 153, 213, 0.2);
+    font-size: 1.6rem;
+    padding: 0 6.4rem;
+    color: black;
+}
+form {
+    padding: 3.2rem 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  max-width: 134rem;
+  margin: 20rem auto 0;
+  gap: 3.2rem;
+}
+fieldset {
+    border: none;
+    width: 50%;
+}
+.fieldset-wrapper legend {
+    font-size: 3.6rem;
+    color: rgba(48, 76, 116, 0.8);
+    font-weight: bold;
+    font-family:'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fieldset-wrapper span {
+    
+    font-size: 1.2rem;
+    color:rgba(48, 76, 116, 1) ;
+}
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+
+   
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper input, .input-wrapper textarea {
+    background: rgba(0, 153, 213, 0.2);
+    border: 1px solid  rgb(48, 76, 116);
+    border-radius: 8px;
+    height: 5.6rem;
+    padding: 0 2.4rem;
+    color: #6c6a7e;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    max-width: 63rem;
+    
+}
+.input-wrapper input:focus, .input-wrapper textarea:focus {
+    outline: none;
+    border: 1px solid rgba(0, 153, 213, 1);
+} 
+footer .button {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 1.8rem;
+    height: 5.6rem;
+    border-radius: 8px;
+    background: rgba(0, 153, 213, 0.2);
+    border: 1px solid rgb(48, 76, 116);
+    font-weight: bold;
+    line-height: 26px;
+    
+
+}
+footer .button:hover {
+   background:  rgba(0, 153, 213, 0.8);
+   font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
