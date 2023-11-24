@@ -1,0 +1,48 @@
+!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Comercio de gases</title>
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Titillium+Web:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+</main>
+    <form name="login" action="analisys.html"> <!-- será necessário usar uma análise do back end para dizer para qual link direcionar o usuário
+        de acoro com as permissões desse usuário, Usando atualmente link funcional para demonstração
+    definitivo seria usado por "POST" EXEMPLO: //action="/processar_login" method="post">// e a ação 
+    "processar login seria executada no back end, válidando o login e recebendo a página que o usuário deverá receber" -->
+        <Fieldset>
+            <div class="fieldset-wrapper">
+                <legend>
+                    <span>G.</span> gases
+                </legend>
+                <div class="input-wrapper">
+                    <label for="user-name">Usuário</label>
+                    <input type="text" id="user-name" name="User" required />
+                </div>
+                <div class="input-wrapper">
+                    <label for="user-pass">Senha</label>
+                    <input type="password" id="user-pass" name="u-pass" required />
+                </div>
+                <input class="button" type="submit" value="Entrar">
+            </div>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
